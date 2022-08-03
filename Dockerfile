@@ -1,5 +1,5 @@
 # Use NodeJS base image
-FROM node:mehdieng/node-base:latest
+FROM mehdieng/slow-node-base:latest
 
 # Create app directory
 WORKDIR /usr/src/app
